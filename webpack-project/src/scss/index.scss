@@ -1,0 +1,68 @@
+
+
+$primary-color: #7E07A9;
+$secondary-color: #67237F;
+$tertiary-color: #52026E;
+$quaternary-color: #AC3BD4;
+$quinary-color: #B764D4;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.header {
+  background-color: $secondary-color;
+  padding: 10px;
+
+  &__title {
+    margin: 0;
+  }
+
+  &__nav {
+    margin: 10px 0;
+
+    &__list {
+      list-style: none;
+      padding: 0;
+
+      &__item {
+        display: inline;
+        margin-right: 10px;
+
+        &__link {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.main {
+  padding: 20px;
+
+  &__title {
+    color: $quaternary-color;
+  }
+
+  &__text {
+    margin: 10px 0;
+  }
+
+  &__link {
+    color: $quinary-color;
+    text-decoration: underline;
+  }
+}
+
+.footer {
+  background-color: $tertiary-color;
+  text-align: center;
+  padding: 10px 0;
+
+  &__text {
+    margin: 0;
+  }
+}
